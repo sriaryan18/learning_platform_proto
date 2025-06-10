@@ -22,7 +22,7 @@ jobs:
       - name: Archive proto files
         run: |
           mkdir dist
-          tar -czf dist/protos.tar.gz user/ order/ VERSION
+          tar -czf dist/protos.tar.gz proto/
 
       - name: Upload to R2 (versioned + latest)
         env:
