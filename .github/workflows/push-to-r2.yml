@@ -2,8 +2,8 @@ name: Push Proto to R2
 
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - main
 
 jobs:
   push-to-r2:
