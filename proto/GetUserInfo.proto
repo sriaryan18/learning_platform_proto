@@ -7,7 +7,7 @@ option java_outer_classname = "GetUserInfoProto";
 package get_user_info;
 
 service GetUsersInfo {
-  rpc GetUsersInfo (GetUsersInfoRequest) returns (GetUsersInfoReply)
+  rpc GetUsersInfo (GetUsersInfoRequest) returns (GetUsersInfoReply);
 }
 
 message GetUsersInfoRequest {
